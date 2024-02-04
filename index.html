@@ -11,7 +11,7 @@
   <!--header-->
   <div class="container-fluid position-relative p-0 overflow-hidden" id="header" style="height: 100vh;">
     <div class="container-fluid position-absolute p-3" id="navbar">
-      <nav class="navbar navbar-expand-lg" style="z-index: 5;">
+      <nav class="navbar navbar-expand-lg " style="z-index: 5;">
         <div class="container-fluid bg-primary bg-gradient rounded-3 shadow-lg position-absolute sticky-top p-3 w-100">
           <a class="navbar-brand" href="#">
             <img src="./images/logo-long-brown.png" alt="HKscapes" style="width: 190px;" >
@@ -20,7 +20,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+            <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link text-secondary" href="#">Home</a>
               </li>
@@ -31,7 +31,7 @@
                 <a class="nav-link text-secondary" href="#">Packages</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Locations</a>
+                <a class="nav-link text-secondary" href="#">FAQ</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-secondary" href="#">Contact Us</a>
@@ -41,13 +41,17 @@
       </nav>
     </div>
     <div class="container-fluid m-0 p-0 h-auto position-relative bg-primary" id="explore" style="z-index: 4;">
+      <div class="p-0 m-0 container-fluid h-100 position-absolute bg-gradient-sm d-block d-md-none"></div>
+      <div class="p-0 m-0 container-fluid h-100 position-absolute bg-gradient-md d-none d-md-block"></div>
       <video autoplay="autoplay" muted="muted" loop="loop" class="container-fluid m-0 p-0 object-fit-cover" style="height: 100vh;">
         <source src="./images/home-broll.mp4">
+        <source src="./images/home-bg-alt.jpg">
       </video>
-      <div class="bg-secondary bg-opacity-75 p-3 rounded-3 position-absolute top-50 start-50 translate-middle" id="heading">
-        <p class="h1 text-primary text-center">Plan your amazing</h1>
-        <p class="display-1 text-primary text-center fw-bold">Hong Kong </h1>
-        <p class="h1 text-primary text-center">getaway!</h1>
+      <div class="position-absolute top-50 end-0 translate-middle-y text-white text-end pe-5" id="heading">
+        <p class="h1">Plan your amazing</p>
+        <p class="display-1 fw-bold">Hong Kong </p>
+        <p class="h1">getaway!</p>
+        <a href="#" class="btn btn-lg rounded-3 bg-primary mt-3 w-50">Book with us now!</a>
       </div>
     </div>
   </div>
@@ -55,7 +59,7 @@
   <div id="whyhk" class="container-fluid p-0 m-0 overflow-hidden">
     <div class="row justify-content-center">
       <div class="col-md-7">
-        <img class="object-fit-contain" src="./images/home-bg.jpeg" style="height: 500px;">
+        <img class="object-fit-contain" src="./images/why-hk.jpeg" style="height: 500px;">
       </div>
       <div class="col-md-5 text-center text-md-start bg-primary p-5">
         <p>
@@ -78,6 +82,16 @@
       <img class="w-100" src="./images/skyline-3.png">
     </div>
   </div>
+
+
+  <!--footer-->
+  <div class="container-fluid mt-3 mb-3 ms-5 p-0 bg-primary">
+    <div class="row">
+      <div class="col">placeholder</div>
+    </div>
+  </div>
+
+  <!--script-->
   <script src="./assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
