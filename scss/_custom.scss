@@ -39,6 +39,18 @@ $accordion-icon-width: 1.5rem;
     background: rgb(84,76,71);
     background: linear-gradient(0deg, rgba(84,76,71,0.96) 40%, rgba(255,255,255,0) 100%); 
 }
+.hover-custom{
+    &:hover {
+        text-decoration: none !important;
+        color: $white !important;
+    }
+    &:active {
+        color: $secondary !important;
+        background: rgb(255,255,255) !important;
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%) !important; 
+
+    }
+}
 
 //import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

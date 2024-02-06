@@ -20,21 +20,18 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Home</a>
+                <a class="nav-link text-secondary hover-custom lh-full border-primary w-100 p-2" href="#whyhk">Destinations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">About Us</a>
+                <a class="nav-link text-secondary hover-custom lh-full border-primary w-100 p-2" href="#pricing">Packages</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Packages</a>
+                <a class="nav-link text-secondary hover-custom lh-full border-primary w-100 p-2" href="#">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Contact Us</a>
+                <a class="nav-link text-secondary hover-custom lh-full border-primary w-100 p-2" href="#">Contact Us</a>
               </li>
           </div>
         </div>
@@ -51,10 +48,11 @@
         <p class="h1">Plan your amazing</p>
         <p class="display-1 fw-bold">Hong Kong </p>
         <p class="h1">getaway!</p>
-        <a href="#" class="btn btn-lg rounded-3 bg-primary mt-3 w-50">Book with us now!</a>
+        <a href="#pricing" class="btn btn-lg rounded-3 bg-primary mt-3 w-50 hover">Book with us now!</a>
       </div>
     </div>
   </div>
+
   <!--why hk?-->
   <div id="whyhk" class="container-fluid p-0 m-0 overflow-hidden">
     <div class="row justify-content-center">
@@ -71,8 +69,8 @@
   </div>
 
   <!--Destinations-->
-  <div class="container-fluid bg-secondary" id="destinations">
-    <div class="container pt-5" style="height: 80vh;">
+  <div class="container-fluid bg-secondary pt-5 ps-5 pe-5" id="destinations">
+    <div class="container-fluid pt-5" style="height: 80vh;">
       <h1 class="display-1 text-center text-white fw-bolder">Off the beaten path!</h1>
       <p class="lead text-white text-center">Explore the culture and nature hidden by Hong Kong’s skyline with us</p>
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -84,21 +82,21 @@
         <div class="carousel-inner rounded-3 pt-4" style="height: 50vh;">
           <div class="carousel-item active h-100 ">
             <img src="./images/temple-street.JPG" class="d-block w-100 object-fit-contain rounded-3" alt="temple street">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-sblock">
               <h5>Temple Street, Yau Ma Tei</h5>
               <p>Experience authentic local food at the night market on Temple Street</p>
             </div>
           </div>
           <div class="carousel-item h-100">
             <img src="./images/victoria-harbor.JPG" class="d-block w-100 object-fit-contain rounded-3" alt="victoria-harbor">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-block">
               <h5>Victoria Harbor, Tsim Tsa Shui</h5>
               <p>See the iconic Hong Kong Skyline from Victoria Harbor.</p>
             </div>
           </div>
           <div class="carousel-item h-100">
             <img src="./images/sunset-peak.png" class="d-block w-100 object-fit-contain rounded-3" alt="sunset-peak">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-block">
               <h5>Sunset Peak, Lantau Island</h5>
               <p>Experience an unforgettable golden hour at the top of Sunset Peak.</p>
             </div>
@@ -115,7 +113,72 @@
       </div>
     </div>
   </div>
+
+  <!--pricing-->
+  <div id="pricing" class="p-5 bg-primary">
+    <div class="container-lg bg-primary mb-3">
+      <div class="text-center mt-3">
+        <h2 class="display-2 fw-bolder text-secondary">Tour Plans</h2>
+        <p class="lead text-muted">Choose our packages that suit you</p>
+      </div>
+      <div class="row my-5 align-items-center justify-content-center mt-3">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title fw-bold display-5 text-secondary">Basic</h4>
+              <ul class="list-group mt-4 text-center">
+                <li class="list-group-item list-group-item-secondary">personal tour guide</li>
+                <li class="list-group-item list-group-item-secondary">24/7 customer service</li>
+              </ul>
+              <p class="display-5 my-4 text-secondary fw-bold">$1000</p>
+              <a href="" class="btn btn-outline-secondary btn-lg mt-3">Book now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-lg-4 mb-3">
+          <div class="card border-secondary border-2">
+            <div class="card-header text-center text-secondary">Most Popular</div>
+            <div class="card-body text-center py-4">
+              <h4 class="card-title fw-bold display-5 text-secondary">Premium</h4>
+              <ul class="list-group mt-4 text-center">
+                <li class="list-group-item list-group-item-secondary">personal tour guide</li>
+                <li class="list-group-item list-group-item-secondary">24/7 customer service</li>
+                <li class="list-group-item list-group-item-secondary">unlimited tourists spots</li>
+                <li class="list-group-item list-group-item-secondary">accomodation covered</li>
+                <li class="list-group-item list-group-item-secondary">transportation covered</li>
+              </ul>
+              <p class="display-5 my-4 text-secondary fw-bold">$10000</p>
+              <a href="" class="btn btn-outline-secondary btn-lg mt-3">Book now</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-8 col-lg-4 col-xl-3 mb-3">
+        <div class="card border-0">
+          <div class="card-body text-center py-4">
+            <h4 class="card-title fw-bold display-5 text-secondary">Full Service</h4>
+            <ul class="list-group mt-4 text-center">
+              <li class="list-group-item list-group-item-secondary">personal tour guide</li>
+              <li class="list-group-item list-group-item-secondary">24/7 customer service</li>
+            </ul>
+            <p class="display-5 my-4 text-secondary fw-bold">$1000</p>
+            <a href="" class="btn btn-outline-secondary btn-lg mt-3">Book now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   
+  <!--testimonials-->
+  <div id="testimonials">
+    <div class="container bg-primary text-secondary">
+      
+    </div>
+  </div>
+
+  <!--faq-->
+  <div id="faq">
+
+  </div>
   <!--fancy transition-->
   <!--
   <div class="container-fluid m-0 p-0" id="transition">

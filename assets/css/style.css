@@ -9,6 +9,16 @@
   background: linear-gradient(0deg, rgba(84, 76, 71, 0.96) 40%, rgba(255, 255, 255, 0) 100%);
 }
 
+.hover-custom:hover {
+  text-decoration: none !important;
+  color: #f1ebe0 !important;
+}
+.hover-custom:active {
+  color: #544c47 !important;
+  background: rgb(255, 255, 255) !important;
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%) !important;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
