@@ -56,6 +56,26 @@ $accordion-icon-width: 1.5rem;
 
     }
 }
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
 
 //import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss"
